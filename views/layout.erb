@@ -1,0 +1,12 @@
+<!-- views/layout.erb -->
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Chica Rose</title>
+<!--     <link href="/cms.css" rel="stylesheet" type="text/css" > -->
+  </head>
+  <body>
+    <%= yield %>
+    <a href="/<%= @current_page + 1 %>"><img src="tellmemore.jpg"/></a>
+  </body>
+</html>
