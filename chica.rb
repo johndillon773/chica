@@ -8,11 +8,11 @@ end
 
 def max_page
   case @day
-  when 24 then 2
-  when 25 then 4
+  when 24     then 2
+  when 25     then 4
   when 26..30 then @day - 20
-  when  1 then 11
-  when  2 then 12
+  when  1     then 11
+  when  2     then 12
   end
 end
 
