@@ -28,7 +28,7 @@ get "/:index" do
   @current_page = params[:index].to_i
 
   case @current_page
-  when 0..6 then erb :layout
+  when 0..max_page then erb :layout
   else erb :wait, :layout => false
   end
 end
