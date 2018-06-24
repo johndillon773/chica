@@ -1,2 +1,2 @@
-require "./book_viewer"
+require "./chica"
 run Sinatra::Application
