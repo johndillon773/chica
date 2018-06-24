@@ -6,7 +6,7 @@
 <!--     <link href="/cms.css" rel="stylesheet" type="text/css" > -->
   </head>
   <body>
-    <%= yield %>
+    <img src="<%= @current_page.to_s %>.jpg"/>
     <a href="/<%= @current_page + 1 %>"><img src="tellmemore.jpg"/></a>
   </body>
 </html>
