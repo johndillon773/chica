@@ -3,7 +3,7 @@ require "sinatra/reloader" if development?
 require "tilt/erubis"
 
 before do
-  @day = #Time.now.day
+  @day = Time.now.day
 end
 
 def max_page
